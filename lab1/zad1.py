@@ -11,9 +11,12 @@ user_days = abs((current_date - date).days)
 
 print(f"Hii {name}, today this is the {user_days} day of your life!")
 
-wspolczynnik_fizyczny = math.sin(2*math.pi/23 * user_days)
-wspolczynnik_emocjonalny = math.sin(2*math.pi/28 * user_days)
-wspolczynnik_intelektualny = math.sin(2*math.pi/33 * user_days)
+def count_biometrics(divider):
+    return math.sin(2*math.pi/divider * user_days)
+
+wspolczynnik_fizyczny = count_biometrics(23)
+wspolczynnik_emocjonalny = count_biometrics(28)
+wspolczynnik_intelektualny = count_biometrics(33)
 
 
 def check_next_day(name, days=user_days):
@@ -39,7 +42,7 @@ def check_biorythms(name, parametr):
         if check > parametr:
             print(f"Tomorrow your {name} parameter will be better!")
         else:
-            print(f"Tomorrow your {name} parameter will be worse :c")
+            print(f"Unfortunately, tomorrow your {name} parameter will be worse :c")
 
 print(f"Your physical coefficient is: {wspolczynnik_fizyczny}")
 check_biorythms("physical", wspolczynnik_fizyczny)

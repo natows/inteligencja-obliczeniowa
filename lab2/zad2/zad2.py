@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("c:\\Users\\Admin\\inteligencja-obliczeniowa\\lab2\\iris1.csv")
+df = pd.read_csv("c:\\Users\\natal\\Studies\\inteligencja-obliczeniowa\\lab2\\iris1.csv")
 
 X = df[["sepal.length", "sepal.width", "petal.length", "petal.width"]]
 y = df["variety"]
@@ -48,7 +48,7 @@ def draw_plot():
     plt.scatter(newIris[y=="Versicolor"][:,0], newIris[y=="Versicolor"][:,1], c="green", label="Versicolor")
     plt.scatter(newIris[y=="Virginica"][:,0], newIris[y=="Virginica"][:,1], c="blue", label="Virginica")
     plt.legend()
-    plt.savefig("c:\\Users\\Admin\\inteligencja-obliczeniowa\\lab2\\zad2\\iris_plot.png")
+    plt.savefig("c:\\Users\\natal\\Studies\\inteligencja-obliczeniowa\\lab2\\zad2\\iris_plot.png")
     # plt.show()
 
 draw_plot()

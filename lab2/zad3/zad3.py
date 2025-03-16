@@ -11,12 +11,12 @@ def draw_plot(data, name):
     plt.xlabel("Sepal Length")
     plt.ylabel("Sepal Width")
     plt.legend()
-    plt.savefig(f"c:\\Users\\Admin\\inteligencja-obliczeniowa\\lab2\\zad3\\{name}.png")
+    plt.savefig(f"c:\\Users\\natal\\Studies\\inteligencja-obliczeniowa\\lab2\\zad3\\{name}.png")
     plt.show()
 
 
 
-df = pd.read_csv("c:\\Users\\Admin\\inteligencja-obliczeniowa\\lab2\\iris1.csv")
+df = pd.read_csv("c:\\Users\\natal\\Studies\\inteligencja-obliczeniowa\\lab2\\iris1.csv")
 pl1 = draw_plot(df, "original")
 
 #standaryzacja min-max

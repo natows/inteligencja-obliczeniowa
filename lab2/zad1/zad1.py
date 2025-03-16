@@ -1,6 +1,6 @@
 import pandas as pd, numpy as np
 
-df = pd.read_csv("c:\\Users\\Admin\\inteligencja-obliczeniowa\\lab2\\zad1\\iris_with_errors.csv")
+df = pd.read_csv("c:\\Users\\natal\\Studies\\inteligencja-obliczeniowa\\lab2\\zad1\\iris_with_errors.csv")
 
 unfilled_data = df.isna().sum() + (df == "-").sum()
 print(unfilled_data)
@@ -25,7 +25,7 @@ for i in df.variety.unique():
         df["variety"] = df["variety"].replace(types)
         
 
-df.to_csv("c:\\Users\\Admin\\inteligencja-obliczeniowa\\lab2\\iris_clean.csv", index=False)
+df.to_csv("c:\\Users\\natal\\Studies\\inteligencja-obliczeniowa\\lab2\\zad1\\iris_clean.csv", index=False)
 
         
 

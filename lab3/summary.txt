@@ -1,0 +1,10 @@
+Metoda wlasnego drzewa decyzyjnego: Poprawnie sklasyfikowano 95.56% przypadkow
+Metoda algorytmicznego drzewa decyzyjnego: Poprawnie sklasyfikowano 88.89% przypadkow
+Metoda k-najblizszych sasiadow k=3: Poprawnie sklasyfikowano 91.11% przypadkow
+Metoda k-najblizszych sasiadow k=5: Poprawnie sklasyfikowano 91.11% przypadkow
+Metoda k-najblizszych sasiadow k=11: Poprawnie sklasyfikowano 95.56% przypadkow
+Metoda naive bayes: Poprawnie sklasyfikowano 91.11% przypadkow
+Metoda k-najblizszych sasiadow k=3: Poprawnie sklasyfikowano 91.11% przypadkow
+Metoda k-najblizszych sasiadow k=5: Poprawnie sklasyfikowano 91.11% przypadkow
+Metoda k-najblizszych sasiadow k=11: Poprawnie sklasyfikowano 95.56% przypadkow
+Metoda naive bayes: Poprawnie sklasyfikowano 91.11% przypadkow

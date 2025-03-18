@@ -5,14 +5,12 @@ pd.set_option('display.max_columns', None)
 
 df = pd.read_csv("c:\\Users\\natal\\Studies\\inteligencja-obliczeniowa\\lab3\\iris1.csv")
 
-
-# podzial na zbior testowy (30%) i treningowy (70%), ziarno losowosci = 29 
 (train_set, test_set) = train_test_split(df, train_size=0.7, random_state=29) 
 
 # print(train_set)
 
-train_inputs = train_set.iloc[:, 0:4].values # cechy
-train_classes = train_set.iloc[:, 4].values # etykieta klasy
+train_inputs = train_set.iloc[:, 0:4].values 
+train_classes = train_set.iloc[:, 4].values 
 test_inputs = test_set.iloc[:, 0:4].values 
 test_classes = test_set.iloc[:, 4].values
 
@@ -35,3 +33,7 @@ for i in range(len):
  
 print(count) 
 print(count/len*100, "%") 
+
+with open("c:\\Users\\natal\\Studies\\inteligencja-obliczeniowa\\lab3\\summary.txt", "a") as file: 
+    file.write(f"Metoda wlasnego drzewa decyzyjnego: Poprawnie sklasyfikowano {count/len*100:.2f}% przypadkow\n") 
+    file.close()

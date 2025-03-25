@@ -25,7 +25,7 @@ mlp = MLPClassifier(hidden_layer_sizes=(2,), max_iter=10000, random_state=29)
 mlp.fit(train_inputs, train_classes)
 
 train_predictions = mlp.predict(train_inputs)
-print(f"sprawdzenie skutecznosci sieci na treningowych: {accuracy_score(train_classes,train_predictions)}") #czy jest przeuczony?? -raczej nie bo skutecznosc na testowych nie jest gorsza
+print(f"sprawdzenie skutecznosci sieci na treningowych: {accuracy_score(train_classes,train_predictions)}") 
 
 test_predictions = mlp.predict(test_inputs)
 print(f"sprawdzenie skutecznosci sieci na testowych: {accuracy_score(test_classes, test_predictions)}")

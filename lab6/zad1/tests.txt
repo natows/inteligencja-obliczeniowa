@@ -1,0 +1,15 @@
+Time taken: 0.00209 seconds
+Time taken: 0.00587 seconds
+Time taken: 0.00479 seconds
+Time taken: 0.00363 seconds
+najlepsze podal 1470
+Time taken: 0.00432 seconds
+Time taken: 0.00329 seconds
+Time taken: 0.00175 seconds
+Time taken: 0.00494 seconds
+najlepszy podal 1370.0 
+sukces na 10 prob 80%
+Time taken: 0.00370 seconds
+Time taken: 0.00303 seconds
+
+średni czas 0.00374 sekundy

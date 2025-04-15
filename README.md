@@ -1,4 +1,4 @@
-Repozytorium przeznaczone do nauki popularnych technik inteligencji obliczeniowej oraz algorytmów optymalizacyjnych, wykorzystywanych m.in. w problemach klasyfikacyjnych, regresyjnych i optymalizacyjnych.
+##Repozytorium przeznaczone do nauki popularnych technik inteligencji obliczeniowej oraz algorytmów optymalizacyjnych, wykorzystywanych m.in. w problemach klasyfikacyjnych, regresyjnych i optymalizacyjnych.
 
 Używane biblioteki:
 - `TensorFlow` / `Keras` – budowa i trening sieci neuronowych
